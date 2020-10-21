@@ -1,0 +1,63 @@
+
+
+.profile-img {
+    max-width: 30%
+}
+
+.project-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.project-grid {
+    width: 80%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+.project-grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-size: 100%;
+    background-position: 0vw;
+    
+}
+.project-grid-item.placeholder {
+    opacity: 0.5;
+
+}
+.project-grid-item.run-buddy {
+    background-image: url(./images/run-buddy-snap.jpeg);
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.project-grid-item.placeholder.berries {
+    background-image: url(./images/berries.jpg);
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+.project-grid-item.placeholder.leaves {
+    background-image: url(./images/green-leaves.jpg);
+    grid-column: 3/4;
+    grid-row: 4/6;
+}
+.project-grid-item.placeholder.golden {
+    background-image: url(./images/golden2.jpg);
+    grid-column: 1/2;
+    grid-row:4/6;
+}
+.project-grid-item.placeholder.flower {
+    background-image: url(./images/pink-flower.jpg);
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+.project-grid-item.placeholder.mountains {
+    background-image: url(./images/mountains2.jpg);
+    grid-column: 1/4;
+    grid-row: 6/7;
+    
+}
