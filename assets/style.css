@@ -1,15 +1,88 @@
-.header
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    padding: 50px 10px;
+    background-color: rgb(219, 217, 217, 0.75);
+}
+header h1 {
+    font-size: 20px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    }
+header nav ul li a {
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+        background: white;
+        border-radius: 15px;
+}
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
+    background-color:rgb(219, 217, 217, 0.75);
+    margin-top: 50px;
 }
-.profile-img {
-    width: 50%;
-    max-width: 300px;
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+footer ul li {
+    padding: 20px;
 }
 
+.section-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: black;
+    border-width: 5px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.intro h2 {
+    padding-bottom: 10px;
+}
+.profile-img {
+    width: 30%;
+    border-radius: 30px; 
+    margin-top: 20px; 
+    opacity: 1;
+}
+.intro-info {
+    width: 40%;
+    align-self: flex-start;
+}
+.projects-section .section-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .project-grid-wrapper {
     display: flex;
     width: 100%;
@@ -30,14 +103,20 @@ footer {
     justify-content: flex-start;
     background-size: cover;
     background-position: 0vw;
-    color: rgba(1, 1, 1, 0);
+    opacity: 0.8;
+    color: rgba(1, 1, 1, 0)
 }
+.project-grid-item:hover {
+    opacity: 1;
+    color: rgba(1, 1, 1, 1);
+ }
+ .project-grid-item:hover h4 {
+     background: linen;
+     padding: 10px;
+ }
 
 /*ADD HERE project-grid-item::after all the pseudo effects, hover, focus etc. rgba color transitions in on hover*/
 
-.project-grid-item.placeholder-img {
-    opacity: 0.5;
-}
 .project-grid-item.run-buddy {
     background-image: url(./images/run-buddy-snap.jpeg);
     grid-column: 1/3;
@@ -68,15 +147,10 @@ footer {
     background-image: url(./images/mountains2.jpg);
     grid-column: 1/4;
     grid-row: 6/8;
-    
 }
-.project-grid-item:hover {
-    opacity: 0.3;
-}
-.project-grid-item:hover h4 {
-    color: rgba(15, 14, 14, 1);
-    opacity: 1;
 
+.project-grid-item:hover {
+   opacity: 1;
 }
 
 @media screen and (max-width: 575px) {
