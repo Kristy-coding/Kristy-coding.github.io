@@ -154,27 +154,27 @@ footer ul li {
 }
 
 .project-grid-item.placeholder-img.berries {
-    background-image: url(./images/berries.jpg);
+    background-image: url(./images/berries-new.jpg);
     grid-column: 2/3;
     grid-row: 4/6;
 }
 .project-grid-item.placeholder-img.leaves {
-    background-image: url(./images/green-leaves.jpg);
+    background-image: url(./images/green-leaves-new.jpg);
     grid-column: 3/4;
     grid-row: 4/6;
 }
 .project-grid-item.placeholder-img.golden {
-    background-image: url(./images/golden2.jpg);
+    background-image: url(./images/golden-new.jpg);
     grid-column: 1/2;
     grid-row:4/6;
 }
 .project-grid-item.placeholder-img.flower {
-    background-image: url(./images/pink-flower.jpg);
+    background-image: url(./images/peony-810446_1280.jpg);
     grid-column: 3/4;
     grid-row: 1/4;
 }
 .project-grid-item.placeholder-img.mountains {
-    background-image: url(./images/mountains2.jpg);
+    background-image: url(./images/mountains-new.jpg);
     grid-column: 1/4;
     grid-row: 6/8;
 }
