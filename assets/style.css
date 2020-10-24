@@ -78,7 +78,7 @@ footer ul li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     max-width: 800px;
     margin-left: auto;
     margin-right:auto;
@@ -87,7 +87,7 @@ footer ul li {
     padding-bottom: 10px;
 }
 .profile-pic {
-    width: 50%;
+    width: 40%;
     flex-grow: 1;
 }
 .profile-img {
@@ -99,9 +99,12 @@ footer ul li {
     opacity: 1;
 }
 .intro-text {
-    width: 50%;
+    width: 40%;
     align-self: center;
     flex-grow: 1;
+    padding-top: 20px;
+    padding-left: 10px;
+
 }
 .projects-section .section-title {
     padding-top: 50px;
@@ -174,7 +177,7 @@ footer ul li {
     grid-row: 1/4;
 }
 .project-grid-item.placeholder-img.mountains {
-    background-image: url(./images/mountains-new.jpg);
+    background-image: url(./images/nepalmountains.jpg);
     grid-column: 1/4;
     grid-row: 6/8;
 }
@@ -182,6 +185,8 @@ footer ul li {
 .project-grid-item:hover {
    opacity: 1;
 }
+
+/* media queries start */
 
 @media screen and (max-width: 575px) {
 
@@ -201,6 +206,7 @@ footer ul li {
     } 
     .intro {
         width: 300px;
+        align-content: center;
     }
     .intro-text {
         width: 300px;
@@ -209,12 +215,12 @@ footer ul li {
         
     }
     .project-grid {
-    width: 80%;
-    min-height: 500px;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+        width: 80%;
+        min-height: 500px;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
 }
 .project-grid-item.run-buddy {
     grid-column: 1/1;
