@@ -148,6 +148,8 @@ footer ul li {
  .project-grid-item:hover a {
      color: black;
  }
+
+ 
 /*ADD HERE project-grid-item::after all the pseudo effects, hover, focus etc. rgba color transitions in on hover*/
 
 .project-grid-item.run-buddy {
@@ -157,7 +159,7 @@ footer ul li {
 }
 
 .project-grid-item.placeholder-img.berries {
-    background-image: url(./images/berries-new.jpg);
+    background-image: url(./images/peony-810446_1280.jpg);
     grid-column: 2/3;
     grid-row: 4/6;
 }
@@ -172,7 +174,7 @@ footer ul li {
     grid-row:4/6;
 }
 .project-grid-item.placeholder-img.flower {
-    background-image: url(./images/peony-810446_1280.jpg);
+    background-image: url(./images/screen\ shot\ 3.png);
     grid-column: 3/4;
     grid-row: 1/4;
 }
@@ -203,52 +205,54 @@ header h1 {
 
     }
 
+
 nav ul {
     width: 100%;
     text-align: center;
+}
 
-    }
+    
 
 footer ul {
     justify-content: flex-start;
 
     } 
 
-.project-grid {
+    .project-grid {
     width: 80%;
     min-height: 500px;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-}
-.project-grid-item.run-buddy {
+    }
+    .project-grid-item.run-buddy {
     grid-column: 1/1;
     grid-row: 1/2;
-}
+    }
 
-.project-grid-item.placeholder-img.berries {
+    .project-grid-item.placeholder-img.berries {
     grid-column: 2/3;
     grid-row: 2/3;
-}
-.project-grid-item.placeholder-img.leaves {
+    }
+    .project-grid-item.placeholder-img.leaves {
     grid-column: 1/2;
     grid-row: 3/4;
-}
-.project-grid-item.placeholder-img.golden {
+    }
+    .project-grid-item.placeholder-img.golden {
     grid-column: 1/2;
     grid-row:2/3;
-}
-.project-grid-item.placeholder-img.flower {
+    }
+    .project-grid-item.placeholder-img.flower {
     grid-column: 2/3;
     grid-row: 1/2;
-}
-.project-grid-item.placeholder-img.mountains {
+    }
+    .project-grid-item.placeholder-img.mountains {
     grid-column: 2/3;
-    grid-row: 3/4;
-    
+    grid-row: 3/4;  
+    }
 }
-}
+
 
 @media screen and (max-width: 690px){
 
