@@ -159,12 +159,12 @@ footer ul li {
 }
 
 .project-grid-item.placeholder-img.berries {
-    background-image: url(./images/peony-810446_1280.jpg);
+    background-image: url(./images/MadLibshomepage.png);
     grid-column: 2/3;
     grid-row: 4/6;
 }
 .project-grid-item.placeholder-img.leaves {
-    background-image: url(./images/green-leaves-new.jpg);
+    background-image: url(./images/MadLibsplay.png);
     grid-column: 3/4;
     grid-row: 4/6;
 }
